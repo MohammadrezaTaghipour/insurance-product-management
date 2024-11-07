@@ -1,0 +1,9 @@
+
+1- Product models and Features to allow the variations that occur for insurance products.
+2- Data structures set up specifically for insurance products that address flexible coverage types, coverage levels and 
+features.
+3- Specific structures for insurance Policies and other Agreements and their impacts on the products and services.
+4- Rating and pricing models for insurance premium calculations.
+5- The information needed for processing incidents and claims for the insured.
+6- Premium schedules stating what premiums are owed when and by whom.
+7- Claims submission and settlement.
