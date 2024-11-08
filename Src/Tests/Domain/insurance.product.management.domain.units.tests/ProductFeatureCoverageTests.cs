@@ -10,9 +10,11 @@ public class ProductFeatureCoverageTests
     {
         //Arrange
         var product = new InsuranceProduct("1", "Premium Auto Coverage");
+        var productFeature = new ProductFeature("1", "Exclude Extra Accessories Damage",
+            ProductFeatureType.CoveredLoss);
         var productFeatureCoverageItems = new List<ProductFeatureCoverageItem>
         {
-            new(product.Id)
+            new(product.Id, productFeature.Id)
         };
 
         //Act
@@ -29,10 +31,12 @@ public class ProductFeatureCoverageTests
     {
         //Arrange
         var product = new InsuranceProduct("1", "Premium Auto Coverage");
+        var productFeature = new ProductFeature("1", "Exclude Extra Accessories Damage",
+            ProductFeatureType.CoveredLoss);
         var coverageType = new CoverageType("1", "Bodily injury");
         var productFeatureCoverageItems = new List<ProductFeatureCoverageItem>
         {
-            new(product.Id, coverageType.Id)
+            new(product.Id, productFeature.Id, coverageType.Id)
         };
 
         //Act

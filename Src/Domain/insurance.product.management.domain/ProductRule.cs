@@ -27,9 +27,9 @@ public class ProductRule
 
     public ProductRule(string id, string productId, string name, string value, string coverageTypeId,
         string productFeatureId)
-        : this(id, productId, name, value, productFeatureId)
+        : this(id, productId, name, value, coverageTypeId)
     {
-        CoverageTypeId = coverageTypeId;
+        ProductFeatureId = productFeatureId;
     }
 
     public string Id { get; private set; }

@@ -32,12 +32,20 @@ public class ProductFeatureCoverageItem
         ProductId = productId;
     }
 
-    public ProductFeatureCoverageItem(string productId, string productTypeId)
+    public ProductFeatureCoverageItem(string productId, string productFeatureId)
         : this(productId)
     {
+        ProductFeatureId = productFeatureId;
+    }
+
+    public ProductFeatureCoverageItem(string productId, string productFeatureId, string productTypeId)
+        : this(productId)
+    {
+        ProductFeatureId = productFeatureId;
         ProductTypeId = productTypeId;
     }
 
     public string ProductId { get; private set; }
+    public string ProductFeatureId { get; private set; }
     public string? ProductTypeId { get; private set; }
 }
