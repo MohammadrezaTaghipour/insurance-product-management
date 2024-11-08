@@ -16,11 +16,11 @@ public class ProductFeatureCoverageTests
         };
 
         //Act
-        var sut = new ProductFeatureCoverage("1", "Digital Equipment Product Feature", productFeatureCoverageItems);
+        var sut = new ProductFeatureCoverage("1", "Vehicle Product Feature", productFeatureCoverageItems);
 
         //Assert
         sut.Id.Should().Be("1");
-        sut.Name.Should().Be("Digital Equipment Product Feature");
+        sut.Name.Should().Be("Vehicle Product Feature");
         sut.ProductFeatureCoverageItems.Should().Contain(productFeatureCoverageItems);
     }
 
