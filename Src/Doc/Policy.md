@@ -1,16 +1,15 @@
 
+# Insurance Policies (Orders for Insurance)
 
-## Insurance Policies (Orders for Insurance)
-
-### Insurance Application
+## Insurance Application
 
 ![Increasing ](10.JPG)
 
 Examples:
 
-![Increasing ](11.JPG)
+![Increasing ](11.jpg)
 
-### Insurance Policy
+## Insurance Policy
 
 ![Increasing ](12.JPG)
 
