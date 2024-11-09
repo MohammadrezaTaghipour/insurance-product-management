@@ -1,5 +1,3 @@
-
-
 # Insurance Product
 
 The main difference between an insurance product and other industries is that the product is not a manufactured,
@@ -113,25 +111,27 @@ Examples:
 
 ## Product Category
 
-| Product-Category   | Product-Category            | Product-Category                 |
-|--------------------|-----------------------------|----------------------------------|
-| Property Insurance | Digital Equipment Insurance | Used Digital Equipment Insurance |
-|                    |                             |                                  |
+| Product-Category   | Product-Category            | Product-Category                 | Product-Category                 |
+|--------------------|-----------------------------|----------------------------------|----------------------------------|
+| Property Insurance | Digital Equipment Insurance | Used Digital Equipment Insurance |                                  |
+|                    |                             |                                  |                                  |
+| Property Insurance | Digital Equipment Insurance | Mobile device Insurance          | Used Digital Equipment Insurance |
+|                    |                             |                                  |                                  |
 
 ## Product
 
-| Product-Category   | Product-Category            | Product-Category                       | Product                |
-|--------------------|-----------------------------|----------------------------------------|------------------------|
-| Property Insurance | Digital Equipment Insurance | Used Digital Equipment Insurance       | Mobile Insurance       |
-|                    |                             |                                        | Tablet Insurance       |
-|                    |                             |                                        | Laptop Insurance       |
-|                    |                             |                                        | Game-console Insurance |
-|                    |                             |                                        |                        |
-|                    |                             |                                        |                        |
-| Property Insurance | Digital Equipment Insurance | Subscription Based Equipment Insurance | Mobile Insurance       |
-|                    |                             |                                        |                        |
-|                    |                             |                                        |                        |
-|                    |                             |                                        |                        |
+| Product-Category   | Product-Category            | Product-Category                 | Product-Category                 | Product                                |
+|--------------------|-----------------------------|----------------------------------|----------------------------------|----------------------------------------|
+| Property Insurance | Digital Equipment Insurance | Used Digital Equipment Insurance |                                  | Mobile Insurance                       |
+|                    |                             |                                  |                                  | Tablet Insurance                       |
+|                    |                             |                                  |                                  | Laptop Insurance                       |
+|                    |                             |                                  |                                  | Game-console Insurance                 |
+|                    |                             |                                  |                                  |                                        |
+| Property Insurance | Digital Equipment Insurance | Mobile device Insurance          |                                  | Subscription Based Equipment Insurance |
+|                    |                             |                                  |                                  |                                        |
+| Property Insurance | Digital Equipment Insurance | Mobile device Insurance          | Used Digital Equipment Insurance | Saman Plan A                           |
+| Property Insurance | Digital Equipment Insurance | Mobile device Insurance          | Used Digital Equipment Insurance | Parsian Plan A                         |
+|                    |                             |                                  |                                  |                                        |
 
 ## Product Coverage Type
 
@@ -202,4 +202,4 @@ Examples:
 |                                  |                  |                       | 10 percent loan                                                   |
 |                                  |                  |                       |                                                                   |
 
-###    
+###                        
