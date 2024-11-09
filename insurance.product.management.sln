@@ -19,32 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{9EEF51A2-0B1
 		Src\Doc\ElectronicEquimpmentInsurance.md = Src\Doc\ElectronicEquimpmentInsurance.md
 		Src\Doc\Product.md = Src\Doc\Product.md
 		Src\Doc\Aspects.txt = Src\Doc\Aspects.txt
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{F15FFA82-74D5-4351-8423-9D429D977AB8}"
-	ProjectSection(SolutionItems) = preProject
-		Src\Doc\images\Untitled.png = Src\Doc\images\Untitled.png
-		Src\Doc\images\Untitled2.PNG = Src\Doc\images\Untitled2.PNG
-		Src\Doc\images\Untitled3.PNG = Src\Doc\images\Untitled3.PNG
-		Src\Doc\images\Untitled4.PNG = Src\Doc\images\Untitled4.PNG
-		Src\Doc\images\Untitled5.PNG = Src\Doc\images\Untitled5.PNG
-		Src\Doc\images\Untitled6.PNG = Src\Doc\images\Untitled6.PNG
-		Src\Doc\images\Untitled7.PNG = Src\Doc\images\Untitled7.PNG
-		Src\Doc\images\Untitled8.PNG = Src\Doc\images\Untitled8.PNG
-		Src\Doc\images\Untitled9.PNG = Src\Doc\images\Untitled9.PNG
-		Src\Doc\images\Untitled10.PNG = Src\Doc\images\Untitled10.PNG
-		Src\Doc\images\Untitled11.PNG = Src\Doc\images\Untitled11.PNG
-		Src\Doc\images\Untitled12.PNG = Src\Doc\images\Untitled12.PNG
-		Src\Doc\images\Untitled13.PNG = Src\Doc\images\Untitled13.PNG
-		Src\Doc\images\Untitled14.PNG = Src\Doc\images\Untitled14.PNG
-		Src\Doc\images\Untitled15.PNG = Src\Doc\images\Untitled15.PNG
-		Src\Doc\images\Untitled16.PNG = Src\Doc\images\Untitled16.PNG
-		Src\Doc\images\Untitled17.PNG = Src\Doc\images\Untitled17.PNG
-		Src\Doc\images\Untitled18.PNG = Src\Doc\images\Untitled18.PNG
-		Src\Doc\images\Untitled19.PNG = Src\Doc\images\Untitled19.PNG
-		Src\Doc\images\Untitled20.PNG = Src\Doc\images\Untitled20.PNG
-		Src\Doc\images\Untitled21.PNG = Src\Doc\images\Untitled21.PNG
-		Src\Doc\images\Untitled22.PNG = Src\Doc\images\Untitled22.PNG
+		Src\Doc\Party.md = Src\Doc\Party.md
 	EndProjectSection
 EndProject
 Global
@@ -60,7 +35,6 @@ Global
 		{D924B93C-DE85-43E7-A198-E17E89C7696F} = {92577EEF-9343-4ED1-AEF4-51E0807CA153}
 		{316EE4BF-FCA2-4C84-A46A-616BC1D70AFF} = {D924B93C-DE85-43E7-A198-E17E89C7696F}
 		{9EEF51A2-0B18-4944-B3A2-2A0438DD0057} = {0C8BCD96-B25A-462E-885C-904538BCD364}
-		{F15FFA82-74D5-4351-8423-9D429D977AB8} = {9EEF51A2-0B18-4944-B3A2-2A0438DD0057}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{38E2F86B-0835-4FCE-B8BC-8D7361672FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
