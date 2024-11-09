@@ -105,7 +105,15 @@ Examples:
 
 Examples:
 
-![Increasing ](07.JPG)
+![Increasing ](07.jpg)
+
+## Insurance Pricing
+
+![Increasing ](08.JPG)
+
+Examples:
+
+![Increasing ](09.jpg)
 
 # Mapping and configuration of Electronic Equipment Insurance Product
 
@@ -202,4 +210,4 @@ Examples:
 |                                  |                  |                       | 10 percent loan                                                   |
 |                                  |                  |                       |                                                                   |
 
-###                        
+### Insurance Pricing
