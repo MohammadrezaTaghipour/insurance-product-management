@@ -16,7 +16,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "insurance.product.managemen
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{9EEF51A2-0B18-4944-B3A2-2A0438DD0057}"
 	ProjectSection(SolutionItems) = preProject
-		Src\Doc\ElectronicEquimpmentInsurance.md = Src\Doc\ElectronicEquimpmentInsurance.md
 		Src\Doc\Product.md = Src\Doc\Product.md
 		Src\Doc\Aspects.txt = Src\Doc\Aspects.txt
 		Src\Doc\Party.md = Src\Doc\Party.md
