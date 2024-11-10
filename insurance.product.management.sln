@@ -21,6 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{9EEF51A2-0B1
 		Src\Doc\Party.md = Src\Doc\Party.md
 		Src\Doc\Policy.md = Src\Doc\Policy.md
 		Src\Doc\PolicyClaims.md = Src\Doc\PolicyClaims.md
+		Src\Doc\Insurance-old.md = Src\Doc\Insurance-old.md
 	EndProjectSection
 EndProject
 Global
