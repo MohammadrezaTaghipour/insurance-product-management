@@ -26,6 +26,16 @@
 | dbe3ef58-7240-11ee-a9e4-39301accecaf | premium_saman | 0.02         |                         | true        | 60            | a968920c-c420-4edf-98bc-72bf4a213dc5 | بیمه تجهیزات الکترونیک |
 |                                      |               |              |                         |             |               |                                      |                        |
 
+# Coverage
+
+| Id | Template-Id                          | Title            | Rules-Html | Cover-Taxonomy-key | Cover-Taxonomy-Title | Is-Total-Lost |
+|----|--------------------------------------|------------------|------------|--------------------|----------------------|---------------|
+| ?  | dbe3ef58-7240-11ee-a9e4-39301accecaf | بیمه ضربه و آسیب |            | Damage             | ضربه و آسیب          | false         |
+| ?  | dbe3ef58-7240-11ee-a9e4-39301accecaf | بیمه آتش سوزی    |            | Fire               | آتش سوزی             | false         |
+| ?  | dbe3ef58-7240-11ee-a9e4-39301accecaf | بیمه سرقت        |            | Stealing           | سرقت                 | false         |
+| ?  | dbe3ef58-7240-11ee-a9e4-39301accecaf | بیمه نفوذ مایعات |            | Water              | نفوذ مایعات          | false         |
+|    |                                      |                  |            |                    |                      |               |
+
 # TemplateDetail
 
 | Id | Template-Id | Private-Terms_Html |

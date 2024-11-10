@@ -19,7 +19,7 @@
                       the current state of the item and to assist in valuing the item and determining the cost of restoration.
                       The main function of the role is to supply the insured with the restoration of the loss at a fair and reasonable price.
 
-    - INSURANCE_AGENT: Wwhose role is to sell and service INSURANCE PRODUCTS for the INSURED PARTYS.
+    - INSURANCE_AGENT: Whose role is to sell and service INSURANCE PRODUCTS for the INSURED PARTYS.
 
 ## Organization Roles
 
@@ -94,12 +94,12 @@
 | Saman Insurance Co       | INSURANCE_PROVIDER      |
 | Zitro Co                 | DISTRIBUTION_CHANNEL    |
 | Digikala Co              | DISTRIBUTION_CHANNEL    |
-| Digikala Co              | INSURANCE_BROKER        |
+| Digikala Co              | !                       |
 | AmirMehdi Ebrahimian Co  | INSURANCE_AGENCY        |
 | Digikala Warranty        | PAYOR                   |
 | Aria Safarzadeh          | ?                       |
+| Alireza zeynali          | PROSPECT                |
 | Alireza zeynali          | INSURED_PARTY           |
-| Alireza zeynali          | ?                       |
 |                          |                         |
 | AmirMehdi Ebrahimian     | Insurance Administrator |
 | Fatemeh Yeganeh          | CLAIM_ADJUSTER          |
