@@ -113,7 +113,7 @@ Examples:
 
 Examples:
 
-![Increasing ](09.jpg)
+![Increasing ](09.JPG)
 
 # Mapping and configuration of Electronic Equipment Insurance Product
 
