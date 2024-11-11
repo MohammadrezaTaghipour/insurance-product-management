@@ -1,18 +1,18 @@
 namespace insurance.product.management.domain;
 
-public class InsuranceProduct
+public class Product
 {
-    private InsuranceProduct()
+    private Product()
     {
     }
 
-    public InsuranceProduct(string id, string name)
+    public Product(string id, string name)
     {
         Id = id;
         Name = name;
     }
 
-    public InsuranceProduct(string id, string name, string productCategoryId)
+    public Product(string id, string name, string productCategoryId)
         : this(id, name)
     {
         Id = id;

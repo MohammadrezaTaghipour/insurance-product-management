@@ -59,3 +59,169 @@
 | 98e526b3-669b-4045-bc6a-4f78f065f832 | کمپین آبان 403 |           |           | 0.02         |                   | BUNDLE       | MOBILE   |       |       |
 | 98e526b3-669b-4045-bc6a-4f78f065f832 | کمپین آبان 403 |           |           | 0.02         |                   | BUNDLE       | LAPTOP   |       |       |
 |                                      |                |           |           |              |                   |              |          |       |       |
+
+## What we sell in USED journey?
+
+```json
+{
+  "Service": "Electronic Equipments Insurance",
+  "SaleChannel": "USED_DEVICE",
+  "Template": {
+    "Template_name": "premium_saman",
+    "Duration": 60,
+    "Wage_percent": 0.02,
+    "Max_compensation_amount": null,
+    "Include_tax": true,
+    "Active_to": null,
+    "Active_from": null,
+    "Coverages": [
+      {
+        "Title": "بیمه سرقت",
+        "Cover_taxonomy_key": "Stealing",
+        "Cover_taxonomy_title": "سرقت",
+        "Is_total_lost": false
+      },
+      {
+        "Title": "بیمه ضربه و آسیب",
+        "Cover_taxonomy_key": "Damage",
+        "Cover_taxonomy_title": "ضربه و آسیب",
+        "Is_total_lost": false
+      },
+      {
+        "Title": "بیمه نفوذ مایعات",
+        "Cover_taxonomy_key": "Water",
+        "Cover_taxonomy_title": "نفوذ مایعات",
+        "Is_total_lost": false
+      },
+      {
+        "Title": "بیمه آتش سوزی",
+        "Cover_taxonomy_key": "Fire",
+        "Cover_taxonomy_title": "آتش سوزی",
+        "Is_total_lost": false
+      }
+    ],
+    "Pricing": [
+      {
+        "Max_value": null,
+        "Min_value": null,
+        "Wage_percent": 0.01,
+        "Fixed_wage_amount": null,
+        "Category": "MOBILE",
+        "Brand": null,
+        "Model": null,
+        "SaleChannel": "USED_DEVICE",
+        "CalculationType": "40"
+      }
+    ]
+  }
+}
+```
+
+## What we sell in BUNDLE journey?
+
+```json
+{
+  "Service": "Electronic Equipments Insurance",
+  "SaleChannel": "BUNDLED",
+  "Template": {
+    "Template_name": "premium",
+    "Duration": 60,
+    "Wage_percent": 0.025,
+    "Max_compensation_amount": null,
+    "Include_tax": true,
+    "Active_to": null,
+    "Active_from": null,
+    "Coverages": [
+      {
+        "Title": "پوشش سهل انگاری",
+        "Cover_taxonomy_key": "Irresponsibility",
+        "Cover_taxonomy_title": "سهل انگاری",
+        "Is_total_lost": false
+      },
+      {
+        "Title": "پوشش سخت افزاری",
+        "Cover_taxonomy_key": "Hardware",
+        "Cover_taxonomy_title": "سخت افزاری",
+        "Is_total_lost": false
+      },
+      {
+        "Title": "پوشش آتش سوزی",
+        "Cover_taxonomy_key": "Fire",
+        "Cover_taxonomy_title": "آتش سوزی",
+        "Is_total_lost": false
+      },
+      {
+        "Title": "پوشش بلایای طبیعی",
+        "Cover_taxonomy_key": "Disaster",
+        "Cover_taxonomy_title": "بلایای طبیعی",
+        "Is_total_lost": false
+      },
+      {
+        "Title": "نرخ بازگشت خسارت",
+        "Cover_taxonomy_key": null,
+        "Cover_taxonomy_title": null,
+        "Is_total_lost": false
+      },
+      {
+        "Title": "پوشش ضرب خودرگی",
+        "Cover_taxonomy_key": "Damage",
+        "Cover_taxonomy_title": "ضربه و آسیب",
+        "Is_total_lost": false
+      },
+      {
+        "Title": "بیمه دزدی با شکست حرز",
+        "Cover_taxonomy_key": "Stealing",
+        "Cover_taxonomy_title": "سرقت",
+        "Is_total_lost": false
+      },
+      {
+        "Title": "پوشش آتش سوزی",
+        "Cover_taxonomy_key": "Fire",
+        "Cover_taxonomy_title": "آتش سوزی",
+        "Is_total_lost": false
+      },
+      {
+        "Title": "پوشش آب خودرگی",
+        "Cover_taxonomy_key": "Water",
+        "Cover_taxonomy_title": "نفوذ مایعات",
+        "Is_total_lost": false
+      }
+    ],
+    "Pricing": [
+      {
+        "Max_value": null,
+        "Min_value": null,
+        "Wage_percent": 0.01,
+        "Fixed_wage_amount": null,
+        "Category": "MOBILE",
+        "Brand": null,
+        "Model": null,
+        "SaleChannel": "BUNDLED",
+        "CalculationType": "40"
+      },
+      {
+        "Max_value": null,
+        "Min_value": null,
+        "Wage_percent": 0.01,
+        "Fixed_wage_amount": null,
+        "Category": "TABLET",
+        "Brand": null,
+        "Model": null,
+        "SaleChannel": "BUNDLED",
+        "CalculationType": "40"
+      },
+      {
+        "Max_value": null,
+        "Min_value": null,
+        "Wage_percent": 0.01,
+        "Fixed_wage_amount": null,
+        "Category": "LAPTOP",
+        "Brand": null,
+        "Model": null,
+        "SaleChannel": "BUNDLED",
+        "CalculationType": "40"
+      }
+    ]
+  }
+}
+```

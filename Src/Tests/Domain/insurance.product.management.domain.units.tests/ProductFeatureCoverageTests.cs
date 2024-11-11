@@ -9,7 +9,7 @@ public class ProductFeatureCoverageTests
     public void productFeatureCoverage_with_required_fields_gets_created_successfully()
     {
         //Arrange
-        var product = new InsuranceProduct("1", "Premium Auto Coverage");
+        var product = new Product("1", "Premium Auto Coverage");
         var productFeature = new ProductFeature("1", "Exclude Extra Accessories Damage",
             ProductFeatureType.CoveredLoss);
         var productFeatureCoverageItems = new List<ProductFeatureCoverageItem>
@@ -30,7 +30,7 @@ public class ProductFeatureCoverageTests
     public void productFeatureCoverage_with_optional_fields_gets_created_successfully()
     {
         //Arrange
-        var product = new InsuranceProduct("1", "Premium Auto Coverage");
+        var product = new Product("1", "Premium Auto Coverage");
         var productFeature = new ProductFeature("1", "Exclude Extra Accessories Damage",
             ProductFeatureType.CoveredLoss);
         var coverageType = new CoverageType("1", "Bodily injury");

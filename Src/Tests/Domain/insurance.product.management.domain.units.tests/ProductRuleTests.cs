@@ -12,7 +12,7 @@ public class ProductRuleTests
     public void productRule_with_required_fields_gets_created_successfully(string name)
     {
         //Arrange
-        var product = new InsuranceProduct("1", "Premium Auto Coverage");
+        var product = new Product("1", "Premium Auto Coverage");
 
         //Act
         var sut = new ProductRule("1", product.Id, name);
@@ -30,7 +30,7 @@ public class ProductRuleTests
     public void productRule_with_optional_fields_gets_created_successfully()
     {
         //Arrange
-        var product = new InsuranceProduct("1", "Premium Auto Coverage");
+        var product = new Product("1", "Premium Auto Coverage");
         var coverageType = new CoverageType("1", "Bodily injury");
         var productFeature = new ProductFeature("1", "Exclude Extra Accessories Damage",
             ProductFeatureType.CoveredLoss);

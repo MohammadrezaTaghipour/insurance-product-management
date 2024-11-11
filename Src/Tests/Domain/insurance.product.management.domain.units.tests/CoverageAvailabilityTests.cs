@@ -9,7 +9,7 @@ public class CoverageAvailabilityTests
     public void coverageAvailability_with_required_fields_gets_created_successfully()
     {
         //Arrange
-        var insuranceProduct = new InsuranceProduct("1", "Premium Auto Coverage");
+        var insuranceProduct = new Product("1", "Premium Auto Coverage");
         var coverageType = new CoverageType("1", "Bodily injury");
         var coverageLevel = new CoverageLevel("1", CoverageLevelType.CoInsurance, null, 100000, 300000, null, null);
 

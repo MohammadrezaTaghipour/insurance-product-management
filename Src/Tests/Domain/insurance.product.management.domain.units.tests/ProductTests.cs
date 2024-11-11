@@ -3,7 +3,7 @@ using Xunit;
 
 namespace insurance.product.management.domain.units.tests;
 
-public class InsuranceProductTests
+public class ProductTests
 {
     [Theory]
     [InlineData("health care insurance")]
@@ -13,7 +13,7 @@ public class InsuranceProductTests
         //Arrange
 
         //Act
-        var sut = new InsuranceProduct("1", name);
+        var sut = new Product("1", name);
 
         //Assert
         sut.Id.Should().Be("1");
@@ -29,7 +29,7 @@ public class InsuranceProductTests
         var category = new ProductCategory("1", categoryName);
 
         //Act
-        var sut = new InsuranceProduct("1", productName, category.Id);
+        var sut = new Product("1", productName, category.Id);
 
         //Assert
         sut.Id.Should().Be("1");
@@ -52,7 +52,7 @@ public class InsuranceProductTests
         var childCategory = new ProductCategory("2", childCategoryName, parentCategory.Id);
 
         //Act
-        var sut = new InsuranceProduct("1", productName, childCategory.Id);
+        var sut = new Product("1", productName, childCategory.Id);
 
         //Assert
         sut.Id.Should().Be("1");
@@ -77,7 +77,7 @@ public class InsuranceProductTests
         var childCategory2 = new ProductCategory("3", childCategoryName2, childCategory1.Id);
 
         //Act
-        var sut = new InsuranceProduct("1", productName, childCategory2.Id);
+        var sut = new Product("1", productName, childCategory2.Id);
 
         //Assert
         sut.Id.Should().Be("1");
@@ -89,7 +89,7 @@ public class InsuranceProductTests
     public void coverageAvailability_gets_added_to_insurance_product_successfully()
     {
         //Arrange
-        var sut = new InsuranceProduct("1", "Premium Auto Coverage");
+        var sut = new Product("1", "Premium Auto Coverage");
 
         var coverageType = new CoverageType("1", "Bodily injury");
         var coverageLevel = new CoverageLevel("1", CoverageLevelType.CoInsurance, null, 100000, 300000, null, null);
@@ -106,7 +106,7 @@ public class InsuranceProductTests
     public void some_coverageAvailabilities_get_added_to_insurance_product_successfully()
     {
         //Arrange
-        var sut = new InsuranceProduct("1", "Premium Auto Coverage");
+        var sut = new Product("1", "Premium Auto Coverage");
 
         var bodilyInjuryCoverageType = new CoverageType("1", "Bodily injury");
         var comprehensiveCoverageType = new CoverageType("2", "Comprehensive");
