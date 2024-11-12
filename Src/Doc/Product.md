@@ -99,7 +99,7 @@ The COVERAGE AVAILABILITY is subtype into the:
 
 Examples:
 
-![Increasing ](19.JPG)
+![Increasing ](19.jpg)
 
 ## Insurance Product Feature
 
