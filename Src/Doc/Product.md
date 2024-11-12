@@ -39,10 +39,18 @@ coverage levels, and features that are possible within the product.
 
 ![Increasing ](02.JPG)
 
+Examples:
+
+![Increasing ](16.JPG)
+
+![Increasing ](17.JPG)
+
 ## Insurance Product Coverage
 
 Each type of insurance product needs to specify **the available coverage types**, **what level of coverages** are
 available, and what **types of features** can be applied.
+
+![Increasing ](03.JPG)
 
 ### Details behind Coverage Type Coverage Levels
 
@@ -82,14 +90,16 @@ party pays.
 The COVERAGE AVAILABILITY describes what is or can be included in the product in terms of the combinations of
 COVERAGE TYPES and COVERAGE LEVELS just described.
 
-The COVERAGE AVAILABILITY is subtyped into the:
+The COVERAGE AVAILABILITY is subtype into the:
 
 - REQUIRED COVERAGES: which are a mandatory part of the insurance offering.
 - STANDARD COVERAGE: which includes default features of the product that can be customized.
 - OPTIONAL COVERAGE: which allows the insured party the ability to select or not select these features.
 - SELECTABLE COVERAGES: which require a selection from among several available options.
 
-![Increasing ](03.JPG)
+Examples:
+
+![Increasing ](19.JPG)
 
 ## Insurance Product Feature
 
